@@ -2,7 +2,7 @@ from app import app
 
 @app.route("/")
 def index():
-    return "Hello world"
+    return "Hello world branch"
 
 @app.route("/about")
 def about():
