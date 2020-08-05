@@ -1,4 +1,5 @@
 from app import app
+from flask import request
 import git
 
 @app.route('/update_server', methods=['POST'])
